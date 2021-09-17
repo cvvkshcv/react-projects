@@ -1,0 +1,17 @@
+.banner {
+  min-height: 570px;
+  position: relative;
+  background-image: url(/src/images/header-bg.svg);
+}
+.banner__image1, .banner__image2 {
+  position: absolute;
+  bottom: 0;
+}
+.banner__image1 {
+  left: -17.5%;
+  background-image: url(/src/images/header-bg.svg);
+}
+.banner__image2 {
+  right: -15%;
+  background-image: url(/src/images/header-bg.svg);
+}
