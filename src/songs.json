@@ -1,0 +1,34 @@
+{
+  "album": "Sakkarakatti",
+  "song_by": "Various Artist",
+  "plays": "2,778,511",
+  "time": "33:47",
+  "copy": "© 2008 Sony Music Entertainment",
+  "thumb": "https://snoidcdnems01.cdnsrv.jio.com/c.saavncdn.com/405/Sakkarakatti-Tamil-2008-500x500.jpg",
+  "songs": [
+    {
+      "name": "Taxi Taxi",
+      "duration": "5:41"
+    },
+    {
+      "name": "Marudhani",
+      "duration": "5:41"
+    },
+    {
+      "name": "I Miss You Da",
+      "duration": "5:41"
+    },
+    {
+      "name": "Chinnama Chilakamma",
+      "duration": "5:41"
+    },
+    {
+      "name": "Elay",
+      "duration": "5:41"
+    },
+    {
+      "name": "Naan Epodhu",
+      "duration": "5:41"
+    }
+  ]
+}
