@@ -5,40 +5,53 @@ import Quiz from "./components/Quiz";
 
 function App() {
   const [questionIdx, setQuestionIdx] = useState(0);
-  const [correctAns, setCorrectAns] = useState(0);
-  const [result, setResult] = useState(false);
-  const question = questions[questionIdx];
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+  const currQuestion = questions[questionIdx];
 
-  const optionSelect = (i) => {
-    if (questions[questionIdx].answer === i) {
-      setCorrectAns(correctAns + 1);
+  const selectOption = (idx) => {
+    if (currQuestion.answer === idx) {
+      setScore(score + 1);
     }
-    const nextQuestion = questionIdx + 1;
-    console.log("nextQuestion ", nextQuestion);
-    if (nextQuestion < questions.length) {
-      setQuestionIdx(nextQuestion);
+    const nextQ = questionIdx + 1;
+    if (nextQ < questions.length) {
+      setQuestionIdx(questionIdx + 1);
     } else {
-      setResult(true);
+      setShowScore(true);
     }
   };
 
   const reset = () => {
     setQuestionIdx(0);
-    setCorrectAns(0);
-    setResult(false);
+    setScore(0);
+    setShowScore(false);
   };
 
   return (
     <div className="quiz-container">
-      {result ? (
-        <div align="center">
-          <h1>Total score is : {correctAns}</h1>
-          <button onClick={reset}>Restart Quiz</button>
-        </div>
-      ) : (
+      {showScore ? (
         <>
-          <Quiz question={question} optionSelect={optionSelect} />
+          <h1>Your score is : {score}</h1>
+          <button onClick={reset}>Restart Quiz</button>
         </>
+      ) : (
+        <div className="quiz-container__question">
+          <p>{currQuestion.question}</p>
+          <div className="quiz-container__options">
+            <ul className="quiz-container__ul">
+              {currQuestion.options.map((option, i) => {
+                return (
+                  <li
+                    className="quiz-container__li"
+                    onClick={() => selectOption(i)}
+                  >
+                    {option}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
       )}
     </div>
   );
