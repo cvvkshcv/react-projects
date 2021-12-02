@@ -1,0 +1,44 @@
+h2 {
+  text-align: center;
+  font-family: cursive;
+  color: #fff;
+  font-size: 3rem;
+  margin: 1rem 0 1rem;
+}
+.boxes {
+  background-color: #fff;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  border-radius: .7rem;
+  margin: 0 auto;
+  max-width: max-content;
+  box-shadow: 0 10px 20px #333;
+}
+.boxes .box {
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: .7rem;
+  cursor: pointer;
+  position: relative;
+}
+.box .overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.boxes .box img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease;
+  transform: rotateY(90deg);
+}
+.boxes .box.active {
+  box-shadow: 0 4px 10px #ccc;
+}
+.boxes .box.active img {
+  transform: rotateY(0deg);
+}
+.boxes .box.completed {
+  background-color: darkcyan;
+}
