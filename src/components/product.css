@@ -1,0 +1,59 @@
+.shop {
+  width: 100%;
+  display: flex;
+}
+.product-section {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+.box {
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: .3rem;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color:#fff;
+  background-color: #666;
+}
+.box img {
+  max-height: 80px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.box h3 {
+  margin: 10px 0 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  max-width: min-content;
+  max-width: 180px;
+  font-size: 1rem;
+}
+.box p {
+  margin: 5px 0 10px;
+}
+button {
+  cursor: pointer;
+  border: unset;
+  background-color: #eee;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+}
+
+
+.cart-section {
+  min-width: 300px;
+  padding: 1rem;
+  margin-left: 1rem;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+.cart-section h1 {
+  margin: 0;
+}
