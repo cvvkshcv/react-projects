@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.count {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: inline-block;
+  margin: 15px 10px 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
