@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cvvkshcv/react-projects.git/static/css/main.22515e4d.chunk.css",
+    "main.js": "/cvvkshcv/react-projects.git/static/js/main.4b071b01.chunk.js",
+    "main.js.map": "/cvvkshcv/react-projects.git/static/js/main.4b071b01.chunk.js.map",
+    "runtime-main.js": "/cvvkshcv/react-projects.git/static/js/runtime-main.0e9f79d5.js",
+    "runtime-main.js.map": "/cvvkshcv/react-projects.git/static/js/runtime-main.0e9f79d5.js.map",
+    "static/js/2.fcf0cd4a.chunk.js": "/cvvkshcv/react-projects.git/static/js/2.fcf0cd4a.chunk.js",
+    "static/js/2.fcf0cd4a.chunk.js.map": "/cvvkshcv/react-projects.git/static/js/2.fcf0cd4a.chunk.js.map",
+    "static/js/3.066b971d.chunk.js": "/cvvkshcv/react-projects.git/static/js/3.066b971d.chunk.js",
+    "static/js/3.066b971d.chunk.js.map": "/cvvkshcv/react-projects.git/static/js/3.066b971d.chunk.js.map",
+    "index.html": "/cvvkshcv/react-projects.git/index.html",
+    "static/css/main.22515e4d.chunk.css.map": "/cvvkshcv/react-projects.git/static/css/main.22515e4d.chunk.css.map",
+    "static/js/2.fcf0cd4a.chunk.js.LICENSE.txt": "/cvvkshcv/react-projects.git/static/js/2.fcf0cd4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e9f79d5.js",
+    "static/js/2.fcf0cd4a.chunk.js",
+    "static/css/main.22515e4d.chunk.css",
+    "static/js/main.4b071b01.chunk.js"
+  ]
+}
