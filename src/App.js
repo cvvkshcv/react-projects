@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import country from './json/county-abbr.json';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    console.log(country)
+  }, []);
+  
   return (
     <div className="App">
       <header className="App-header">
