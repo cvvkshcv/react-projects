@@ -22,7 +22,13 @@ function Test() {
             <form className="d-flex w-100" onSubmit={search}>
               <input 
                 value={name}
-                onChange={(e) => setName(e.target.value)}
+                onChange={(e) => {
+                  const name = e.target.value;
+                  setName(name);
+                  if (name.length === 0) {
+                    setResponse(null);
+                  }
+                }}
                 
                 type="search"
                 aria-label="Search"
