@@ -1,0 +1,13 @@
+body {
+  background-color: bisque;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: brown;
+  color: #fff;
+  border: unset;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+}
